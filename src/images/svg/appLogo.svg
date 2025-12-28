@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 100 125"
+     style="color:#8B0000;">
+
+  <defs>
+    <!-- Shadow -->
+    <filter id="bottomShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4"
+        flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+
+    <!-- White icons pattern -->
+    <pattern id="iconPattern" width="28" height="28" patternUnits="userSpaceOnUse">
+      <g fill="#ffffff" opacity="0.22">
+        <!-- T-shirt -->
+        <path d="M6 4 L10 6 H18 L22 4 L24 8 L20 10 V22 H8 V10 L4 8 Z"/>
+        <!-- Apple -->
+        <circle cx="21" cy="21" r="3"/>
+        <!-- Bread -->
+        <rect x="3" y="21" width="7" height="4" rx="2"/>
+      </g>
+    </pattern>
+
+    <!-- Clip bag area -->
+    <clipPath id="bagClip">
+      <path d="m 54.4063,960.36217 c -1.8623,0 -3.6318,0.36575 -5.2813,1
+      -1.2567,-0.33573 -2.5773,-0.53125 -3.9374,-0.53125
+      -8.2436,0 -15.0313,6.58617 -15.0313,14.65625
+      l 0,9.84375 -9.0625,0 l -7.4688,57.03128
+      l 72.75,0 l -7.4687,-57.03128
+      l -9.4687,0 0,-9.78125
+      c 0,-8.33884 -6.7581,-15.1875 -15.0313,-15.1875 z"/>
+    </clipPath>
+  </defs>
+
+  <g transform="translate(0,-952.36218)">
+
+    <!-- Bag -->
+    <path
+      d="m 54.4063,960.36217 c -1.8623,0 -3.6318,0.36575 -5.2813,1
+      -1.2567,-0.33573 -2.5773,-0.53125 -3.9374,-0.53125
+      -8.2436,0 -15.0313,6.58617 -15.0313,14.65625
+      l 0,9.84375 -9.0625,0 a 1.0001,1.0001 0 0 0 -1,0.875
+      l -7.4688,57.03128 a 1.0001,1.0001 0 0 0 1,1.125
+      l 72.75,0 a 1.0001,1.0001 0 0 0 1,-1.125
+      l -7.4687,-57.03128 a 1.0001,1.0001 0 0 0 -1,-0.875
+      l -9.4687,0 0,-9.78125
+      c 0,-8.33884 -6.7581,-15.1875 -15.0313,-15.1875 z"
+      fill="currentColor"
+      filter="url(#bottomShadow)" />
+
+    <!-- White background icons -->
+    <rect x="0" y="960" width="100" height="125"
+          fill="url(#iconPattern)"
+          clip-path="url(#bagClip)"/>
+
+    <!-- Handle gap -->
+    <path
+      d="m 50,965 c -6,0 -11,5 -11,11 l 0,6 l 22,0 l 0,-6 c 0,-6 -5,-11 -11,-11 z"
+      fill="#fff"/>
+
+    <!-- Brand text -->
+    <text
+      x="50"
+      y="1020"
+      text-anchor="middle"
+      dominant-baseline="middle"
+      font-size="8"
+      font-weight="600"
+      fill="#ffffff"
+      font-family="Arial, Helvetica, sans-serif">
+      Quick mart
+    </text>
+
+  </g>
+</svg>

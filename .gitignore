@@ -137,3 +137,349 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# React Native
+.expo/
+.expo-shared/
+.expo-shared/
+
+# React Native - Metro bundler cache
+.metro/
+
+# React Native - Watchman
+.watchmanconfig
+
+# OSX
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Android/IntelliJ
+*.iml
+.idea/
+.gradle/
+local.properties
+*.hprof
+*.keystore
+!debug.keystore
+
+# Android - Build files
+android/app/build/
+android/build/
+android/.gradle/
+android/app/debug.keystore
+android/app/release.keystore
+android/app/*.jks
+android/app/*.keystore
+android/app/gmpAppId.txt
+
+# Android - Generated files
+android/app/src/main/assets/index.android.bundle
+android/app/src/main/res/drawable-*/
+
+# iOS
+ios/build/
+ios/Pods/
+ios/Podfile.lock
+ios/*.xcworkspace/xcuserdata/
+ios/*.xcodeproj/xcuserdata/
+ios/*.xcodeproj/project.xcworkspace/xcuserdata/
+ios/*.xcuserstate
+ios/DerivedData/
+ios/Pods/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcuserstate
+
+# iOS - CocoaPods
+Pods/
+Podfile.lock
+
+# iOS - Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Xcode
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+*.xcscmblueprint
+
+# Ruby / CocoaPods
+vendor/bundle/
+.bundle/
+*.gem
+*.bundle
+Gemfile.lock
+
+# Firebase & Google Services (sensitive config files)
+# Uncomment if you don't want to commit these
+# android/app/google-services.json
+# ios/GoogleService-Info.plist
+# ios/MobileQuickMart/GoogleService-Info.plist
+
+# Temporary files
+*.swp
+*.swo
+*~
+*.tmp
+*.temp
+
+# Logs and reports
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Testing
+coverage/
+.nyc_output/
+*.lcov
+*.coverage
+*.coverage.*
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+.hypothesis/
+
+# Build artifacts and compiled files
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.cxx
+*.cpp
+*.cc
+*.c++
+*.hpp
+*.h++
+*.hh
+*.hxx
+*.obj
+*.pch
+*.pdb
+*.ilk
+*.exp
+*.map
+*.res
+*.rsp
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.cache
+*.bin
+*.out
+*.app
+*.apk
+*.aab
+*.ipa
+*.dmg
+*.pkg
+*.deb
+*.rpm
+*.com
+*.pyc
+*.pyo
+*.pyd
+*.slo
+*.lo
+*.la
+*.al
+*.libs
+
+# Archive files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.bz2
+*.xz
+*.lzma
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+*.save
+*.swp
+*.swo
+*~
+.#*
+#*#
+*.rej
+*.orig.*
+*.patch
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+*.sublime-*
+.project
+.classpath
+.settings/
+*.iml
+*.ipr
+*.iws
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.AppleDouble
+.LSOverride
+Icon
+.DocumentRevisions-V100
+.fseventsd
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Android specific build artifacts
+android/app/build/
+android/build/
+android/.gradle/
+android/app/debug.keystore
+android/app/release.keystore
+android/app/*.jks
+android/app/*.keystore
+android/app/gmpAppId.txt
+android/app/src/main/assets/index.android.bundle
+android/app/src/main/res/drawable-*/
+android/local.properties
+android/app/release/
+android/app/debug/
+android/app/intermediates/
+android/app/tmp/
+android/app/.cxx/
+android/app/.externalNativeBuild/
+
+# iOS specific build artifacts
+ios/build/
+ios/Pods/
+ios/Podfile.lock
+ios/*.xcworkspace/xcuserdata/
+ios/*.xcodeproj/xcuserdata/
+ios/*.xcodeproj/project.xcworkspace/xcuserdata/
+ios/*.xcuserstate
+ios/DerivedData/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcuserstate
+
+# React Native specific
+.expo/
+.expo-shared/
+.metro/
+.watchmanconfig
+.react-native/
+.react-native-cli/
+.react-native-*
+
+# Certificates and keys
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.cer
+*.crt
+*.pem
+*.pfx
+*.keystore
+*.jks
+!debug.keystore
+
+# Environment and config files (sensitive)
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.*.local
+*.env
+!.env.example
+!.env.template
+!.env.sample
+!.env.dist
+!.env.default
+
+# Firebase & Google Services (sensitive config files)
+# Uncomment if you don't want to commit these
+# android/app/google-services.json
+# ios/GoogleService-Info.plist
+# ios/MobileQuickMart/GoogleService-Info.plist
+
+# Backup and temporary files
+*.bak
+*.backup
+*.old
+*.orig
+*.save
+*.swp
+*.swo
+*~
+.#*
+#*#
+*.rej
+*.orig.*
+*.patch
+*.diff
+*.tmp
+*.temp
+*.lock
+*.pid
+*.seed
+*.pid.lock
+
+# Misc
+web-build/
+*.cxx

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "937547096615",
+    "project_id": "musu-food",
+    "storage_bucket": "musu-food.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:937547096615:android:4d989a3af6ce663a0c2402",
+        "android_client_info": {
+          "package_name": "com.mobilequickmart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAx1K-LZ8g7V1IhSPZ0tnMaLUxUCjRj7CI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:937547096615:android:b8eb3e77a181e3d60c2402",
+        "android_client_info": {
+          "package_name": "com.musu_food_cus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAx1K-LZ8g7V1IhSPZ0tnMaLUxUCjRj7CI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
